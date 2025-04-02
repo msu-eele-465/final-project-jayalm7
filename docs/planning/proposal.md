@@ -41,6 +41,7 @@ Buzzer – Provides an audible alarm when the set time is reached.
 Power Supply – Supplies power to the microcontroller and peripherals.
 
 Pull-up Resistors – Ensures stable I2C communication.
+![image](https://github.com/user-attachments/assets/139b67b8-39e5-442f-8c5f-89bdebd30c37)
 
  
 ## Software overview
@@ -56,6 +57,7 @@ o	Check if Push Button 1 is pressed to toggle between time display and alarm-set
 o	If in alarm-setting mode, detect Push Button 2 presses to increment the alarm time.
 o	Compare the RTC time with the set alarm time.
 o	If they match, activate the buzzer.
+![image](https://github.com/user-attachments/assets/69de1d80-b0c8-456b-82a7-dc207cad2c22)
 
  
 
