@@ -42,7 +42,8 @@ Power Supply – Supplies power to the microcontroller and peripherals.
 
 Pull-up Resistors – Ensures stable I2C communication.
 
- 
+ ![image](https://github.com/user-attachments/assets/2066dcd9-eb77-4a64-9b05-0e0eb0cefe42)
+
 ## Software overview
 
 The MSP will be structured into functional blocks, including I2C communication, user input handling, display updates, and alarm activation. Below is a description of how the system will operate:
@@ -56,6 +57,8 @@ o	Check if Push Button 1 is pressed to toggle between time display and alarm-set
 o	If in alarm-setting mode, detect Push Button 2 presses to increment the alarm time.
 o	Compare the RTC time with the set alarm time.
 o	If they match, activate the buzzer.
+
+![image](https://github.com/user-attachments/assets/a611e8f5-dd6f-4779-b0a1-a4b20b5b6f27)
 
  
 
